@@ -23,10 +23,10 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # set default build arguments
 ARG SDK_VERSION=commandlinetools-linux-7302050_latest.zip
-ARG ANDROID_BUILD_VERSION=31
-ARG ANDROID_TOOLS_VERSION=31.0.0
+ARG ANDROID_BUILD_VERSION=30
+ARG ANDROID_TOOLS_VERSION=30.0.0
 ARG NDK_VERSION=21.4.7075529
-ARG NODE_VERSION=14.x
+ARG NODE_VERSION=12.x
 ARG WATCHMAN_VERSION=4.9.0
 
 # set default environment variables, please don't remove old env for compatibilty issue
